@@ -1,0 +1,84 @@
+{
+  materials: [
+    {
+      name: 'Skin',
+      parameters: [
+        {
+          baseColor: 'Color',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 0.089087,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Stub',
+      parameters: [
+        {
+          baseColor: 'Color',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Orange/Orange.obj',
+    name: 'Orange',
+    recenter: 'root',
+    scale: 0.50938600000000001,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Orange/Color.jpg',
+      name: 'Color',
+      pipeline_name: 'Color.jpg',
+    },
+    {
+      file: 'sampledata/Orange/Normal.jpg',
+      name: 'Normal',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Normal.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

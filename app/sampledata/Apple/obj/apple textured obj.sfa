@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'QuadMesh1',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.38778299999999999,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/Apple/obj/apple textured obj.obj',
+    name: 'apple textured obj',
+    recenter: 'root',
+    scale: 0.015073,
+  },
+  version: '0.52:1',
+}

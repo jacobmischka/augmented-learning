@@ -1,0 +1,234 @@
+{
+  animations: [
+    {
+      path: 'sampledata/Pineapple/ananas.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: '01 - Default',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '11dif',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: '11',
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '03 - Default',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '512570b783at',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: '512570b783ad',
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: '02 - Default',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'shapka',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: 'shapka ref',
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'www',
+      parameters: [
+        {
+          baseColor: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'wer',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          reflectance: 0.5,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/Pineapple/ananas.fbx',
+    name: 'ananas',
+    recenter: 'root',
+    scale: 0.017476999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/Pineapple/wer.jpg',
+      name: 'wer',
+      pipeline_name: 'wer.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/shapka.jpg',
+      name: 'shapka',
+      pipeline_name: 'shapka.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/512570b783at.jpg',
+      name: '512570b783at',
+      pipeline_name: '512570b783at.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/512570b783ad.jpg',
+      name: '512570b783ad',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '512570b783ad.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/shapka ref.jpg',
+      name: 'shapka ref',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'shapka ref.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/11dif.jpg',
+      name: '11dif',
+      pipeline_name: '11dif.jpg',
+    },
+    {
+      file: 'sampledata/Pineapple/11.jpg',
+      name: '11',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '11.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

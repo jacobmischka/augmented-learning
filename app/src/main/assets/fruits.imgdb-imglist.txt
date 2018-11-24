@@ -1,0 +1,4 @@
+orange|app/sampledata/Orange/mandarin.jpg
+apple|app/sampledata/Apple/thumbnail.jpg
+banana|app/sampledata/Banana/bananas.jpg
+pineapple|app/sampledata/Pineapple/pineapple.jpg
