@@ -37,7 +37,7 @@
     file: 'sampledata/Banana/Banana.obj',
     name: 'Banana',
     recenter: 'root',
-    scale: 0.019101,
+    scale: 0.0005,
   },
   version: '0.52:1',
 }

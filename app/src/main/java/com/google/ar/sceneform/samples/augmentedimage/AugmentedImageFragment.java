@@ -43,7 +43,7 @@ public class AugmentedImageFragment extends ArFragment {
   private static final String TAG = "AugmentedImageFragment";
 
   // This is a pre-created database containing the sample image.
-  private static final String FRUITS_IMAGE_DATABASE = "fruits.imgdb";
+  private static final String IMAGE_DATABASE = "fruits.imgdb";
 
   // Do a runtime check for the OpenGL level available at runtime to avoid Sceneform crashing the
   // application.
@@ -89,7 +89,7 @@ public class AugmentedImageFragment extends ArFragment {
     Config config = super.getSessionConfiguration(session);
     if (!setupAugmentedImageDatabase(config, session)) {
       SnackbarHelper.getInstance()
-          .showError(getActivity(), "Could not setup augmented image database");
+          .showError(getActivity(), "Could not set up augmented image database");
     }
     return config;
   }
@@ -103,9 +103,7 @@ public class AugmentedImageFragment extends ArFragment {
       return false;
     }
 
-      // This is an alternative way to initialize an AugmentedImageDatabase instance,
-      // load a pre-existing augmented image database.
-      try (InputStream is = getContext().getAssets().open(FRUITS_IMAGE_DATABASE)) {
+      try (InputStream is = getContext().getAssets().open(IMAGE_DATABASE)) {
         augmentedImageDatabase = AugmentedImageDatabase.deserialize(session, is);
       } catch (IOException e) {
         Log.e(TAG, "IO exception loading augmented image database.", e);

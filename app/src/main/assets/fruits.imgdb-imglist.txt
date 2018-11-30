@@ -1,4 +1,4 @@
-orange|app/sampledata/Orange/mandarin.jpg
-apple|app/sampledata/Apple/thumbnail.jpg
-banana|app/sampledata/Banana/bananas.jpg
-pineapple|app/sampledata/Pineapple/pineapple.jpg
+orange|app/sampledata/Orange/orange-qrcode.png
+apple|app/sampledata/Apple/apple-qrcode.png
+banana|app/sampledata/Banana/banana-qrcode.png
+pineapple|app/sampledata/Pineapple/pineapple-qrcode.png

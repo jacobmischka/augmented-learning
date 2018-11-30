@@ -15,7 +15,7 @@
           ],
         },
         {
-          metallic: 1,
+          metallic: 0,
         },
         {
           roughness: 0.38778299999999999,
@@ -37,7 +37,7 @@
     file: 'sampledata/Apple/obj/apple textured obj.obj',
     name: 'apple textured obj',
     recenter: 'root',
-    scale: 0.015073,
+    scale: 0.001,
   },
   version: '0.52:1',
 }

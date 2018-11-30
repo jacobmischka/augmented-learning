@@ -63,7 +63,7 @@
     file: 'sampledata/Orange/Orange.obj',
     name: 'Orange',
     recenter: 'root',
-    scale: 0.50938600000000001,
+    scale: 0.001,
   },
   samplers: [
     {

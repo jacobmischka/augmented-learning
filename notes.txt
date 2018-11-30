@@ -1,0 +1,1 @@
+Need to subclass TransformationNode instead of AnchorNode, and replace TranslationController to rotate instead
