@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: 'DNA',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.36430400000000002,
+            0.53481900000000004,
+            0.86392400000000003,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.242536,
+        },
+        {
+          opacity: 0.98999999999999999,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/dna/DNA.obj',
+    name: 'DNA',
+    recenter: 'root',
+    scale: 0.517513,
+  },
+  samplers: [
+    {
+      file: 'sampledata/dna/Bump.jpg',
+      name: 'Bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '/Volumes/Store/Private/Personal_Training/Human_Factory/Anatomy/DNA/Bump.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

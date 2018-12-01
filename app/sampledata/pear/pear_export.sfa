@@ -1,0 +1,118 @@
+{
+  materials: [
+    {
+      name: 'Pear_Flower',
+      parameters: [
+        {
+          baseColor: 'pear_diffuse',
+        },
+        {
+          baseColorTint: [
+            0.58851500000000001,
+            0.55270699999999995,
+            0.040076000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Pear_Skin',
+      parameters: [
+        {
+          baseColor: 'pear_diffuse',
+        },
+        {
+          baseColorTint: [
+            0.58851500000000001,
+            0.55270699999999995,
+            0.040076000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 0.197991,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Pear_Tail',
+      parameters: [
+        {
+          baseColor: 'pear_diffuse',
+        },
+        {
+          baseColorTint: [
+            0.58851500000000001,
+            0.55270699999999995,
+            0.040076000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 0.206069,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/pear/pear_export.obj',
+    name: 'pear_export',
+    recenter: 'root',
+    scale: 0.30664400000000003,
+  },
+  samplers: [
+    {
+      file: 'sampledata/pear/pear_specular.jpg',
+      name: 'pear_specular',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'maps\\\\pear_specular.jpg',
+    },
+    {
+      file: 'sampledata/pear/pear_diffuse.jpg',
+      name: 'pear_diffuse',
+      pipeline_name: 'maps\\pear_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/pear/pear_normal_map.jpg',
+      name: 'pear_normal_map',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'maps\\\\pear_normal_map.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

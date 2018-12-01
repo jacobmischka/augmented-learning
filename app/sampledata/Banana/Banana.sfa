@@ -4,7 +4,7 @@
       name: 'DefaultMaterial',
       parameters: [
         {
-          baseColor: null,
+          baseColor: 'Color',
         },
         {
           baseColorTint: [
@@ -39,5 +39,11 @@
     recenter: 'root',
     scale: 0.0005,
   },
+  samplers: [
+    {
+        file: 'sampledata/Banana/Color.jpg',
+        name: 'Color'
+    }
+  ],
   version: '0.52:1',
 }

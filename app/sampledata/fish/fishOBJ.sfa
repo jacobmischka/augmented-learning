@@ -1,0 +1,61 @@
+{
+  materials: [
+    {
+      name: '02___Default',
+      parameters: [
+        {
+          baseColor: 'pez 02 difusa',
+        },
+        {
+          baseColorTint: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 0.4,
+        },
+        {
+          roughness: 0.163299,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/fish/fishOBJ.obj',
+    name: 'fishOBJ',
+    recenter: 'root',
+    scale: 0.80917099999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata/fish/pez 02 difusa.jpg',
+      name: 'pez 02 difusa',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'E:\\!!Pincha\\!!modelos\\modificando\\fisherman maps\\pez 02 difusa.jpg',
+    },
+    {
+      file: 'sampledata/fish/pez 02  bump .jpg',
+      name: 'pez 02  bump ',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'E:\\!!Pincha\\!!modelos\\modificando\\fisherman maps\\pez 02  bump .jpg',
+    },
+  ],
+  version: '0.52:1',
+}

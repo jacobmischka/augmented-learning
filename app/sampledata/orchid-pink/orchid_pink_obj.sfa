@@ -1,0 +1,886 @@
+{
+  materials: [
+    {
+      name: 'orchid_pink_mtl_14',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_2',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_3',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_4',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_5',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_6',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_6',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_7',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_8',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_8',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_9',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_10',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_10',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_11',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_11',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_12',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_12',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_13',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_13',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_15',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_16',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_21',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_23',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_19',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_24',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_20',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_27',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_21',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_28',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_22',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_29',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_23',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_30',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_24',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_31',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_25',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_32',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_26',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_33',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_27',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_34',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_28',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'orchid_pink_mtl_35',
+      parameters: [
+        {
+          baseColor: 'dcmap_orchid_pink_29',
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/orchid-pink/orchid_pink_obj.obj',
+    name: 'orchid_pink_obj',
+    recenter: 'root',
+    scale: 0.019,
+  },
+  samplers: [
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_29.jpg',
+      name: 'dcmap_orchid_pink_29',
+      pipeline_name: 'dcmap_orchid_pink_29.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_28.jpg',
+      name: 'dcmap_orchid_pink_28',
+      pipeline_name: 'dcmap_orchid_pink_28.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_26.jpg',
+      name: 'dcmap_orchid_pink_26',
+      pipeline_name: 'dcmap_orchid_pink_26.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_10.jpg',
+      name: 'dcmap_orchid_pink_10',
+      pipeline_name: 'dcmap_orchid_pink_10.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_19.jpg',
+      name: 'dcmap_orchid_pink_19',
+      pipeline_name: 'dcmap_orchid_pink_19.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_9.jpg',
+      name: 'dcmap_orchid_pink_9',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_9.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_7.jpg',
+      name: 'dcmap_orchid_pink_7',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_7.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_18.jpg',
+      name: 'dcmap_orchid_pink_18',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_18.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_17.jpg',
+      name: 'dcmap_orchid_pink_17',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_17.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_5.jpg',
+      name: 'dcmap_orchid_pink_5',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_5.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_1.jpg',
+      name: 'dcmap_orchid_pink_1',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_1.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_12.jpg',
+      name: 'dcmap_orchid_pink_12',
+      pipeline_name: 'dcmap_orchid_pink_12.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_4.jpg',
+      name: 'dcmap_orchid_pink_4',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_4.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_23.jpg',
+      name: 'dcmap_orchid_pink_23',
+      pipeline_name: 'dcmap_orchid_pink_23.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_3.jpg',
+      name: 'dcmap_orchid_pink_3',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_3.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_15.jpg',
+      name: 'dcmap_orchid_pink_15',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_15.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_13.jpg',
+      name: 'dcmap_orchid_pink_13',
+      pipeline_name: 'dcmap_orchid_pink_13.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_11.jpg',
+      name: 'dcmap_orchid_pink_11',
+      pipeline_name: 'dcmap_orchid_pink_11.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_14.jpg',
+      name: 'dcmap_orchid_pink_14',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'dcmap_orchid_pink_14.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_8.jpg',
+      name: 'dcmap_orchid_pink_8',
+      pipeline_name: 'dcmap_orchid_pink_8.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_20.jpg',
+      name: 'dcmap_orchid_pink_20',
+      pipeline_name: 'dcmap_orchid_pink_20.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_25.jpg',
+      name: 'dcmap_orchid_pink_25',
+      pipeline_name: 'dcmap_orchid_pink_25.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_6.jpg',
+      name: 'dcmap_orchid_pink_6',
+      pipeline_name: 'dcmap_orchid_pink_6.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_21.jpg',
+      name: 'dcmap_orchid_pink_21',
+      pipeline_name: 'dcmap_orchid_pink_21.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_22.jpg',
+      name: 'dcmap_orchid_pink_22',
+      pipeline_name: 'dcmap_orchid_pink_22.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_27.jpg',
+      name: 'dcmap_orchid_pink_27',
+      pipeline_name: 'dcmap_orchid_pink_27.jpg',
+    },
+    {
+      file: 'sampledata/orchid-pink/dcmap_orchid_pink_24.jpg',
+      name: 'dcmap_orchid_pink_24',
+      pipeline_name: 'dcmap_orchid_pink_24.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

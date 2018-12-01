@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'DefaultMaterial',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.59999999999999998,
+            0.59999999999999998,
+            0.59999999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/green apples/mpm_F_04.obj',
+    name: 'mpm_F_04',
+    recenter: 'root',
+    scale: 0.013233,
+  },
+  version: '0.52:1',
+}

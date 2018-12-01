@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: '07___Default',
+      parameters: [
+        {
+          baseColor: 'TropicalFish07',
+        },
+        {
+          baseColorTint: [
+            0.58819999999999995,
+            0.58819999999999995,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/TropicalFish/TropicalFish07.obj',
+    name: 'TropicalFish07',
+    recenter: 'root',
+    scale: 0.0077619999999999998,
+  },
+  samplers: [
+    {
+      file: 'sampledata/TropicalFish/TropicalFish07.jpg',
+      name: 'TropicalFish07',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'J:\\my projects\\tropicalfish\\TropicalFish07.jpg',
+    },
+  ],
+  version: '0.52:1',
+}

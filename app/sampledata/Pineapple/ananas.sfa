@@ -182,7 +182,7 @@
     file: 'sampledata/Pineapple/ananas.fbx',
     name: 'ananas',
     recenter: 'root',
-    scale: 0.001,
+    scale: 0.01,
   },
   samplers: [
     {
