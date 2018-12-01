@@ -89,7 +89,7 @@
     file: 'sampledata/pear/pear_export.obj',
     name: 'pear_export',
     recenter: 'root',
-    scale: 0.30664400000000003,
+    scale: 0.03,
   },
   samplers: [
     {

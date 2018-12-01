@@ -37,7 +37,7 @@
     file: 'sampledata/TropicalFish/TropicalFish01.obj',
     name: 'TropicalFish01',
     recenter: 'root',
-    scale: 0.0074520000000000003,
+    scale: 0.001,
   },
   samplers: [
     {

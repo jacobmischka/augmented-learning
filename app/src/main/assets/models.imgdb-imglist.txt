@@ -1,0 +1,11 @@
+orange|app/sampledata/Orange/orange-qrcode.png
+apple|app/sampledata/Apple/apple-qrcode.png
+banana|app/sampledata/Banana/banana-qrcode.png
+pineapple|app/sampledata/Pineapple/pineapple-qrcode.png
+lemons|app/sampledata/lemons/lemons-qrcode.png
+pear|app/sampledata/pear/pear-qrcode.png
+discus|app/sampledata/TropicalFish/qrcodes/01-discus.png
+blue tang|app/sampledata/TropicalFish/qrcodes/02-blue-tang.png
+convict cichlid|app/sampledata/TropicalFish/qrcodes/06-convict-cichlid.png
+clownfish|app/sampledata/TropicalFish/qrcodes/12-clownfish.png
+clark's anemonefish|app/sampledata/TropicalFish/qrcodes/11-clarks-anemonefish.png

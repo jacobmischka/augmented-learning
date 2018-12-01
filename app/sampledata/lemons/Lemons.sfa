@@ -145,13 +145,13 @@
           ],
         },
         {
-          metallic: 1,
+          metallic: 0,
         },
         {
           roughness: 0.16666700000000001,
         },
         {
-          opacity: null,
+          opacity: 0,
         },
       ],
       source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
@@ -193,7 +193,7 @@
     file: 'sampledata/lemons/Lemons.obj',
     name: 'Lemons',
     recenter: 'root',
-    scale: 0.061240000000000003,
+    scale: 0.002,
   },
   samplers: [
     {

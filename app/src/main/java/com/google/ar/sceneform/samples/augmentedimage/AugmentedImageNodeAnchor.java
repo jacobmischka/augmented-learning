@@ -30,6 +30,7 @@ import com.google.ar.sceneform.rendering.ModelRenderable;
 import com.google.ar.sceneform.rendering.Renderable;
 import com.google.ar.sceneform.ux.TransformableNode;
 import com.google.ar.sceneform.ux.TransformationSystem;
+import com.google.ar.sceneform.ux.TwistGestureRecognizer;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -38,22 +39,30 @@ import java.util.concurrent.CompletableFuture;
  * at the corners of the augmented image trackable.
  */
 @SuppressWarnings({"AndroidApiChecker"})
-public class AugmentedImageNodeAnchor extends AnchorNode {
+public class AugmentedImageNodeAnchor extends AnchorNode implements Node.OnTapListener {
 
   private static final String TAG = "AugmentedImageNodeAnchor";
 
   // The augmented image represented by this node.
   private AugmentedImage image;
-  private TransformableNode node;
+  private AugmentedImageTransformableNode node;
 
   private CompletableFuture<ModelRenderable> model;
 
-  public AugmentedImageNodeAnchor(Context context, TransformationSystem transformationSystem, String assetPath, TwoFingerDragGestureRecognizer twoFingerDragGestureRecognizer) {
+  public AugmentedImageNodeAnchor(
+          Context context,
+          TransformationSystem transformationSystem,
+          String assetPath,
+          TwoFingerDragGestureRecognizer twoFingerDragGestureRecognizer
+  ) {
     this.model = ModelRenderable.builder()
             .setSource(context, Uri.parse(assetPath))
             .build();
 
-    node = new AugmentedImageTransformableNode(transformationSystem, twoFingerDragGestureRecognizer);
+    node = new AugmentedImageTransformableNode(
+            transformationSystem,
+            twoFingerDragGestureRecognizer
+    );
   }
 
   @SuppressWarnings({"AndroidApiChecker", "FutureReturnValueIgnored"})
@@ -73,18 +82,10 @@ public class AugmentedImageNodeAnchor extends AnchorNode {
 
     // Set the anchor based on the center of the image.
     setAnchor(image.createAnchor(image.getCenterPose()));
-    Quaternion localRotation = new Quaternion();
-    localRotation.set(new Vector3(-1f, 0f, 0f), 90);
-    // setLocalRotation(localRotation);
 
     Renderable renderable = model.getNow(null);
     node.setParent(this);
     node.setRenderable(renderable);
-    node.setLocalRotation(localRotation);
-    // node.setLocalPosition(new Vector3(0f, 0.5f, 0f));
-    if (renderable != null) {
-      node.setCollisionShape(renderable.getCollisionShape());
-    }
     node.select();
   }
 
@@ -92,4 +93,7 @@ public class AugmentedImageNodeAnchor extends AnchorNode {
     return image;
   }
 
+  public void onTap(HitTestResult hitTestResult, MotionEvent motionEvent) {
+    Log.d(TAG, "onTap");
+  }
 }

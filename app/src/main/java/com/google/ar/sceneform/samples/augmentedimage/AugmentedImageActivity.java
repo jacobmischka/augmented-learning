@@ -16,23 +16,29 @@
 
 package com.google.ar.sceneform.samples.augmentedimage;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.*;
 import android.widget.ImageView;
 import com.google.ar.core.AugmentedImage;
+import com.google.ar.core.Camera;
 import com.google.ar.core.Frame;
 import com.google.ar.core.TrackingState;
+import com.google.ar.sceneform.AnchorNode;
 import com.google.ar.sceneform.FrameTime;
 import com.google.ar.sceneform.HitTestResult;
+import com.google.ar.sceneform.Node;
 import com.google.ar.sceneform.Scene;
 import com.google.ar.sceneform.samples.common.helpers.SnackbarHelper;
 import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.DragGesture;
 import com.google.ar.sceneform.ux.DragGestureRecognizer;
 import com.google.ar.sceneform.ux.TransformationSystem;
+import com.google.ar.sceneform.ux.TwistGestureRecognizer;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -46,6 +52,7 @@ public class AugmentedImageActivity extends AppCompatActivity {
 
     private ArFragment arFragment;
     private ImageView fitToScanView;
+    private FloatingActionButton fab;
     private TransformationSystem transformationSystem;
 
     private TwoFingerDragGestureRecognizer twoFingerDragGestureRecognizer;
@@ -66,7 +73,14 @@ public class AugmentedImageActivity extends AppCompatActivity {
             "Orange.sfb",
             "apple textured obj.sfb",
             "Banana.sfb",
-            "pineapple.sfb"
+            "pineapple.sfb",
+            "Lemons.sfb",
+            "pear_export.sfb",
+            "TropicalFish01.sfb",
+            "TropicalFish02.sfb",
+            "TropicalFish06.sfb",
+            "TropicalFish12.sfb",
+            "TropicalFish11.sfb",
     };
 
     @Override
@@ -77,6 +91,10 @@ public class AugmentedImageActivity extends AppCompatActivity {
 
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
         fitToScanView = findViewById(R.id.image_view_fit_to_scan);
+        fab = findViewById(R.id.clear_button);
+        fab.setOnClickListener(view -> resetView());
+
+
         transformationSystem = arFragment.getTransformationSystem();
         twoFingerDragGestureRecognizer = new TwoFingerDragGestureRecognizer(transformationSystem.getGesturePointersUtility());
 
@@ -115,13 +133,14 @@ public class AugmentedImageActivity extends AppCompatActivity {
                 case PAUSED:
                     // When an image is in PAUSED state, but the camera is not PAUSED, it has been detected,
                     // but not yet tracked.
-                    String text = "Detected Image " + augmentedImage.getIndex();
-                    SnackbarHelper.getInstance().showMessage(this, text);
+                    // String text = "Detected Image " + augmentedImage.getIndex();
+                    // SnackbarHelper.getInstance().showMessage(this, text);
                     break;
 
                 case TRACKING:
                     // Have to switch to UI Thread to update View.
                     fitToScanView.setVisibility(View.GONE);
+                    fab.setVisibility(View.VISIBLE);
 
                     // Create a new anchor for newly found images.
                     if (!augmentedImageMap.containsKey(augmentedImage)) {
@@ -137,5 +156,11 @@ public class AugmentedImageActivity extends AppCompatActivity {
                     break;
             }
         }
+    }
+
+    private void resetView() {
+        Intent i = new Intent(AugmentedImageActivity.this, AugmentedImageActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(i);
     }
 }

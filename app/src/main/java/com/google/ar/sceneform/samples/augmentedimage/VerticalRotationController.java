@@ -11,12 +11,12 @@ import com.google.ar.sceneform.ux.TransformableNode;
 import com.google.ar.schemas.lull.Quat;
 
 public class VerticalRotationController extends BaseTransformationController<TwoFingerDragGesture> {
-    private final TransformableNode node;
+    private static final String TAG = "VerticalRotationController";
+
     private static final float DELTA_MULTIPLIER = 1f;
     public VerticalRotationController(
             TransformableNode transformableNode, TwoFingerDragGestureRecognizer gestureRecognizer) {
         super(transformableNode, gestureRecognizer);
-        this.node = transformableNode;
     }
     @Override
     public boolean canStartTransformation(TwoFingerDragGesture gesture) {
@@ -25,11 +25,9 @@ public class VerticalRotationController extends BaseTransformationController<Two
     @Override
     public void onContinueTransformation(TwoFingerDragGesture gesture) {
         float deltaY = gesture.getAverageDeltaPosition().y * DELTA_MULTIPLIER;
-        Log.d("VerticalRotationController", String.valueOf(deltaY));
-        MathUtils.clamp(deltaY, -360, 360);
-        Quaternion localRotation = new Quaternion(new Vector3(1f, 0f, 0f), deltaY);
-        Log.d("VerticalRotationController", localRotation.toString());
-        node.setLocalRotation(Quaternion.multiply(node.getLocalRotation(), localRotation));
+        Log.d(TAG, String.valueOf(deltaY));
+        Quaternion rotationDelta = new Quaternion(getTransformableNode().worldToLocalDirection(Vector3.right()), deltaY);
+        getTransformableNode().setLocalRotation(Quaternion.multiply(getTransformableNode().getLocalRotation(), rotationDelta));
     }
     @Override
     public void onEndTransformation(TwoFingerDragGesture gesture) {
