@@ -10,3 +10,15 @@ blue tang|app/sampledata/TropicalFish/qrcodes/02-blue-tang.png
 convict cichlid|app/sampledata/TropicalFish/qrcodes/06-convict-cichlid.png
 clownfish|app/sampledata/TropicalFish/qrcodes/12-clownfish.png
 clark's anemonefish|app/sampledata/TropicalFish/qrcodes/11-clarks-anemonefish.png
+
+eiffel-tower|app/sampledata/famous-architecture/eiffel-tower/qrcode.png
+golden-gate-bridge|app/sampledata/famous-architecture/golden-gate-bridge/qrcode.png
+pisa|app/sampledata/famous-architecture/pisa/qrcode.png
+statue-of-liberty|app/sampledata/famous-architecture/statue-of-liberty/qrcode.png
+taj-mahal|app/sampledata/famous-architecture/taj-mahal/qrcode.png
+
+dock|app/sampledata/bridges/dock/qrcode.png
+rope|app/sampledata/bridges/rope/qrcode.png
+stone-bridge|app/sampledata/bridges/stone-bridge/qrcode.png
+wood|app/sampledata/bridges/wood/qrcode.png
+

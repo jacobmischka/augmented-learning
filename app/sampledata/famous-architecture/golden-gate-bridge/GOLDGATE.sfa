@@ -1,0 +1,42 @@
+{
+  materials: [
+    {
+      name: 'DefaultMaterial',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.941176471,
+            0.290196078,
+            0,
+            1,
+          ],
+        },
+        {
+          metallic: 0.55,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/famous-architecture/golden-gate-bridge/GOLDGATE.obj',
+    name: 'GOLDGATE',
+    recenter: 'root',
+    scale: 0.008,
+  },
+  version: '0.52:1',
+}

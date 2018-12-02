@@ -1,0 +1,17 @@
+ROPE BRIDGE
+by Ufuk Orbey (shadedancer619)
+Made in: Cinema 4 D R16
+--------------------------------------
+Cinema 4D spline dynamics are used in this project. No connectors, only splines.
+
+91 objects (all structure)
+21300 polygons
+42112 edges
+22937 points
+
+This model is not a heavy one but especialy spline textures increases the file size. For Cinema 4D beginners, there is some fun inside. You may learn a lot about spline constraints and dynamics.
+
+Textures are ok for C4D format but baked textures are perfectly fit to all other formats.
+Just find and define them to the correct objects.
+
+See you... 

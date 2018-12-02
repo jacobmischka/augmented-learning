@@ -18,7 +18,7 @@
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.google.ar.sceneform.samples.augmentedimage"
+        applicationId "me.mischka.augmentedlearning"
 
         // 24 is the minimum since Sceneform requires Android N.
         minSdkVersion 24
@@ -203,3 +203,49 @@ sceneform.asset('sampledata/apple/apple obj/apple.obj',
         'default',
         'sampledata/apple/apple obj/apple.sfa',
         'src/main/assets/apple')
+
+sceneform.asset('sampledata/famous-architecture/eiffel-tower/10067_Eiffel_Tower_v1_max2010_it1.obj',
+        'default',
+        'sampledata/famous-architecture/eiffel-tower/10067_Eiffel_Tower_v1_max2010_it1.sfa',
+        'src/main/assets/10067_Eiffel_Tower_v1_max2010_it1')
+
+sceneform.asset('sampledata/famous-architecture/golden-gate-bridge/GOLDGATE.obj',
+        'default',
+        'sampledata/famous-architecture/golden-gate-bridge/GOLDGATE.sfa',
+        'src/main/assets/GOLDGATE')
+
+sceneform.asset('sampledata/famous-architecture/pisa/pisa.obj',
+        'default',
+        'sampledata/famous-architecture/pisa/pisa.sfa',
+        'src/main/assets/pisa')
+
+sceneform.asset('sampledata/famous-architecture/statue-of-liberty/LibertStatue.obj',
+        'default',
+        'sampledata/famous-architecture/statue-of-liberty/LibertStatue.sfa',
+        'src/main/assets/LibertStatue')
+
+sceneform.asset('sampledata/famous-architecture/taj-mahal/tajmahal.obj',
+        'default',
+        'sampledata/famous-architecture/taj-mahal/tajmahal.sfa',
+        'src/main/assets/tajmahal')
+
+
+sceneform.asset('sampledata/bridges/dock/dock(formats).obj',
+        'default',
+        'sampledata/bridges/dock/dock(formats).sfa',
+        'src/main/assets/dock(formats)')
+
+sceneform.asset('sampledata/bridges/rope/rpbridge(formats).obj',
+        'default',
+        'sampledata/bridges/rope/rpbridge(formats).sfa',
+        'src/main/assets/rpbridge(formats)')
+
+sceneform.asset('sampledata/bridges/stone-bridge/bridge-a.obj',
+        'default',
+        'sampledata/bridges/stone-bridge/bridge-a.sfa',
+        'src/main/assets/bridge-a')
+
+sceneform.asset('sampledata/bridges/wood/bridge.obj',
+        'default',
+        'sampledata/bridges/wood/bridge.sfa',
+        'src/main/assets/bridge')
