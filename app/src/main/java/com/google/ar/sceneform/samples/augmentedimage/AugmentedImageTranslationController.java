@@ -117,7 +117,7 @@ public class AugmentedImageTranslationController extends TranslationController {
             Pose pose = hit.getHitPose();
             if (trackable instanceof Plane) {
                 Plane plane = (Plane) trackable;
-                if (plane.isPoseInPolygon(pose) && allowedPlaneTypes.contains(plane.getType())) {
+                if (allowedPlaneTypes.contains(plane.getType())) {
                     desiredWorldPosition = new Vector3(pose.tx(), pose.ty(), pose.tz());
 
                     lastArHitResult = hit;

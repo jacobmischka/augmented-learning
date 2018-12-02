@@ -50,6 +50,8 @@ import java.util.Map;
  */
 public class AugmentedImageActivity extends AppCompatActivity {
 
+    private static final String TAG = "AugmentedImageActivity";
+
     private ArFragment arFragment;
     private ImageView fitToScanView;
     private FloatingActionButton fab;
@@ -92,7 +94,10 @@ public class AugmentedImageActivity extends AppCompatActivity {
         arFragment = (ArFragment) getSupportFragmentManager().findFragmentById(R.id.ux_fragment);
         fitToScanView = findViewById(R.id.image_view_fit_to_scan);
         fab = findViewById(R.id.clear_button);
-        fab.setOnClickListener(view -> resetView());
+        fab.setOnClickListener(view -> {
+            Log.d(TAG, "fab tapped");
+            resetView();
+        });
 
 
         transformationSystem = arFragment.getTransformationSystem();
@@ -101,7 +106,7 @@ public class AugmentedImageActivity extends AppCompatActivity {
         Scene scene = arFragment.getArSceneView().getScene();
         scene.addOnUpdateListener(this::onUpdateFrame);
         scene.addOnPeekTouchListener(peekTouchListener);
-        Log.d("AugmentedImageActivity", "onCreate");
+        Log.d(TAG, "onCreate");
 
     }
 

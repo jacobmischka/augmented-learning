@@ -33,7 +33,6 @@ public class AugmentedImageTransformableNode extends TransformableNode {
         verticalRotationController = new VerticalRotationController(this, twoFingerDragGestureRecognizer);
         rotationController = new AugmentedImageRotationController(this, transformationSystem.getTwistRecognizer());
         translationController = new AugmentedImageTranslationController(this, transformationSystem.getDragRecognizer());
-        translationController.setAllowedPlaneTypes(EnumSet.of(Plane.Type.VERTICAL));
 
         addTransformationController(rotationController);
         addTransformationController(translationController);
