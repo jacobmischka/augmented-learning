@@ -36,7 +36,7 @@
     file: 'sampledata/famous-architecture/pisa/pisa.obj',
     name: 'pisa',
     recenter: 'root',
-    scale: 0.001,
+    scale: 0.0004,
   },
   version: '0.52:1',
 }

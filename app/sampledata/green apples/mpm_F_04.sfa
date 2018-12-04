@@ -37,7 +37,7 @@
     file: 'sampledata/green apples/mpm_F_04.obj',
     name: 'mpm_F_04',
     recenter: 'root',
-    scale: 0.013233,
+    scale: 0.001,
   },
   version: '0.52:1',
 }

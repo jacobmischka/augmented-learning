@@ -37,7 +37,7 @@
     file: 'sampledata/banana/banana.obj',
     name: 'banana',
     recenter: 'root',
-    scale: 0.904366,
+    scale: 0.05,
   },
   samplers: [
     {

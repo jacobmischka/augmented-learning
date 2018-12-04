@@ -1,24 +1,22 @@
-orange|app/sampledata/Orange/orange-qrcode.png
-apple|app/sampledata/Apple/apple-qrcode.png
-banana|app/sampledata/Banana/banana-qrcode.png
-pineapple|app/sampledata/Pineapple/pineapple-qrcode.png
-lemons|app/sampledata/lemons/lemons-qrcode.png
-pear|app/sampledata/pear/pear-qrcode.png
+apple|app/sampledata/input-images/fruits/apple.jpg
+banana|app/sampledata/input-images/fruits/bananas.jpg
+orange|app/sampledata/input-images/fruits/orange.jpg
+pear|app/sampledata/input-images/fruits/pear.jpg
+pineapple|app/sampledata/input-images/fruits/pineapple.jpg
 
-discus|app/sampledata/TropicalFish/qrcodes/01-discus.png
-blue tang|app/sampledata/TropicalFish/qrcodes/02-blue-tang.png
-convict cichlid|app/sampledata/TropicalFish/qrcodes/06-convict-cichlid.png
-clownfish|app/sampledata/TropicalFish/qrcodes/12-clownfish.png
-clark's anemonefish|app/sampledata/TropicalFish/qrcodes/11-clarks-anemonefish.png
+blue-tang|app/sampledata/input-images/fish/blue-tang.jpg
+clarks-anemonefish|app/sampledata/input-images/fish/clarks-anemonefish.jpg
+clownfish|app/sampledata/input-images/fish/clownfish.jpg
+convict-cichlid|app/sampledata/input-images/fish/convict-cichlid.jpg
+discus|app/sampledata/input-images/fish/discus.jpg
 
-eiffel-tower|app/sampledata/famous-architecture/eiffel-tower/qrcode.png
-golden-gate-bridge|app/sampledata/famous-architecture/golden-gate-bridge/qrcode.png
-pisa|app/sampledata/famous-architecture/pisa/qrcode.png
-statue-of-liberty|app/sampledata/famous-architecture/statue-of-liberty/qrcode.png
-taj-mahal|app/sampledata/famous-architecture/taj-mahal/qrcode.png
+eiffel-tower|app/sampledata/input-images/buildings/eiffel-tower.jpg
+pisa|app/sampledata/input-images/buildings/pisa.jpg
+statue-of-liberty|app/sampledata/input-images/buildings/statue-of-liberty.jpg
+taj-mahal|app/sampledata/input-images/buildings/taj-mahal.jpg
 
-dock|app/sampledata/bridges/dock/qrcode.png
-rope|app/sampledata/bridges/rope/qrcode.png
-stone-bridge|app/sampledata/bridges/stone-bridge/qrcode.png
-wood|app/sampledata/bridges/wood/qrcode.png
+arch|app/sampledata/input-images/bridges/arch.jpg
+beam|app/sampledata/input-images/bridges/beam.jpg
+simple-suspension|app/sampledata/input-images/bridges/simple-suspension.jpg
+suspension|app/sampledata/input-images/bridges/suspension.jpg
 

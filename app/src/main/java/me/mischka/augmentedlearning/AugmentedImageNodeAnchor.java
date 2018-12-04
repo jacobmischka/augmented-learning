@@ -100,10 +100,13 @@ public class AugmentedImageNodeAnchor extends AnchorNode implements Node.OnTapLi
       case "eiffel-tower":
         node.setLookDirection(Vector3.down());
         break;
+      case "banana":
+        node.setLookDirection(Vector3.up());
+        break;
       case "statue-of-liberty":
       case "rope":
-      case "stone-bridge":
-      case "wood":
+      case "arch":
+      case "simple-suspension":
         node.setLookDirection(Vector3.forward());
         break;
     }

@@ -33,6 +33,7 @@ import com.google.ar.sceneform.ux.ArFragment;
 import com.google.ar.sceneform.ux.TransformationSystem;
 
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -43,6 +44,33 @@ import java.util.Map;
 public class AugmentedImageActivity extends AppCompatActivity {
 
     private static final String TAG = "AugmentedImageActivity";
+    private static final Map<String, String> assetPathMap;
+    static {
+        Map<String, String> map = new HashMap<>();
+        map.put("apple", "green-apples.sfb");
+        map.put("banana", "banana.sfb");
+        map.put("orange", "Orange.sfb");
+        map.put("pear", "pear_export.sfb");
+        map.put("pineapple", "pineapple.sfb");
+
+        map.put("blue-tang", "TropicalFish02.sfb");
+        map.put("clarks-anemonefish", "TropicalFish11.sfb");
+        map.put("clownfish", "TropicalFish12.sfb");
+        map.put("convict-cichlid", "TropicalFish06.sfb");
+        map.put("discus", "TropicalFish01.sfb");
+
+        map.put("eiffel-tower", "10067_Eiffel_Tower_v1_max2010_it1.sfb");
+        map.put("pisa", "pisa.sfb");
+        map.put("statue-of-liberty", "LibertStatue.sfb");
+        map.put("taj-mahal", "tajmahal.sfb");
+
+        map.put("arch", "bridge-a.sfb");
+        map.put("beam", "dock(formats).sfb");
+        map.put("simple-suspension", "bridge.sfb");
+        map.put("suspension", "GOLDGATE.sfb");
+
+        assetPathMap = Collections.unmodifiableMap(map);
+    }
 
     private ArFragment arFragment;
     private ImageView fitToScanView;
@@ -62,32 +90,6 @@ public class AugmentedImageActivity extends AppCompatActivity {
     // Augmented image and its associated center pose anchor, keyed by the augmented image in
     // the database.
     private final Map<AugmentedImage, AugmentedImageNodeAnchor> augmentedImageMap = new HashMap<>();
-
-    private final String[] assetPathMap = {
-            "Orange.sfb",
-            "green-apples",
-            "banana.sfb",
-            "pineapple.sfb",
-            "Lemons.sfb",
-            "pear_export.sfb",
-
-            "TropicalFish01.sfb",
-            "TropicalFish02.sfb",
-            "TropicalFish06.sfb",
-            "TropicalFish12.sfb",
-            "TropicalFish11.sfb",
-
-            "10067_Eiffel_Tower_v1_max2010_it1.sfb",
-            "GOLDGATE.sfb",
-            "pisa.sfb",
-            "LibertStatue.sfb",
-            "tajmahal.sfb",
-
-            "dock(formats).sfb",
-            "rpbridge(formats).sfb",
-            "bridge-a.sfb",
-            "bridge.sfb"
-    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,7 +155,12 @@ public class AugmentedImageActivity extends AppCompatActivity {
 
                     // Create a new anchor for newly found images.
                     if (!augmentedImageMap.containsKey(augmentedImage)) {
-                        AugmentedImageNodeAnchor anchorNode = new AugmentedImageNodeAnchor(this, transformationSystem, assetPathMap[augmentedImage.getIndex()], twoFingerDragGestureRecognizer);
+                        AugmentedImageNodeAnchor anchorNode = new AugmentedImageNodeAnchor(
+                                this,
+                                transformationSystem,
+                                assetPathMap.get(augmentedImage.getName()),
+                                twoFingerDragGestureRecognizer
+                        );
                         anchorNode.setImage(augmentedImage);
                         augmentedImageMap.put(augmentedImage, anchorNode);
                         arFragment.getArSceneView().getScene().addChild(anchorNode);
