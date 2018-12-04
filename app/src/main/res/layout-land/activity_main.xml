@@ -31,15 +31,18 @@
         android:id="@+id/image_view_fit_to_scan"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
+        android:layout_gravity="fill_vertical"
         android:contentDescription="@string/fit_image_to_scan"
+        android:rotation="90"
         android:scaleType="fitCenter"
+        android:scaleX="1.8"
+        android:scaleY="2"
         android:src="@drawable/fit_to_scan" />
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="12dip">
+        android:padding="24dip">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/clear_button"

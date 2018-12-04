@@ -33,10 +33,9 @@
 
     <activity
         android:name=".AugmentedImageActivity"
-        android:configChanges="orientation|screenSize"
+        android:configChanges="screenSize"
         android:exported="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:screenOrientation="locked">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <category android:name="android.intent.category.LAUNCHER"/>

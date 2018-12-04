@@ -99,7 +99,6 @@ public class AugmentedImageActivity extends AppCompatActivity {
         fitToScanView = findViewById(R.id.image_view_fit_to_scan);
         fab = findViewById(R.id.clear_button);
         fab.setOnClickListener(view -> {
-            Log.d(TAG, "fab tapped");
             resetView();
         });
 
@@ -119,6 +118,7 @@ public class AugmentedImageActivity extends AppCompatActivity {
         super.onResume();
         if (augmentedImageMap.isEmpty()) {
             fitToScanView.setVisibility(View.VISIBLE);
+            fab.setVisibility(View.GONE);
         }
     }
 
